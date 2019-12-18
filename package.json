@@ -2,7 +2,7 @@
   "name": "simple-todo-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://musti-91.github.io/todos-db",
+  "homepage": "https://musti-91.github.io/posts",
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
