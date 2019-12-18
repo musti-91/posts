@@ -11,7 +11,7 @@
     "flow:watch": "watchman-make -p \"src/**/*.js\" \"stories/**/*.js\" --make \"clear && yarn run\" -t \"flow --color=always\"",
     "server": "npx json-server db.json --port 5000",
     "docs": "./node_modules/.bin/jsdoc build/static/js/*.js -d docs/",
-    "deploy": "rm -rf build  && npm run build && gh-pages -b master -d build"
+    "deploy": "rm -rf build  && npm run build && gh-pages -d build"
   },
   "husky": {
     "hooks": {
