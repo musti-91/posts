@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Component should match default snapshot 1`] = `
+<div
+  style={
+    Object {
+      "color": "red",
+      "fontFamily": "Fira Code",
+      "fontSize": "1em",
+      "margin": "0 auto",
+      "padding": ".4em",
+      "width": "50em",
+    }
+  }
+>
+  <div
+    key="1"
+  >
+    <Item
+      body=""
+      checked={true}
+      id={1}
+      onChecked={[Function]}
+      onClick={[Function]}
+      onDelete={[Function]}
+      title="something"
+    />
+  </div>
+</div>
+`;

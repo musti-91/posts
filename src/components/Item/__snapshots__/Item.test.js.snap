@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item Component should match default snapshot 1`] = `
+<div
+  id="item-undefined"
+  style={
+    Object {
+      "backgroundColor": "grey",
+      "borderRadius": ".3em",
+      "color": "#447",
+      "display": "flex",
+      "flexDirection": "row",
+      "fontSize": "1em",
+      "justifyContent": "space-between",
+      "marginBottom": ".5em",
+      "padding": ".4em",
+      "span": Object {
+        "width": "60%",
+      },
+    }
+  }
+>
+  <span
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "60%",
+      }
+    }
+  />
+  <styled.div>
+    <Icon
+      description="delete-undefined"
+      onClick={[Function]}
+      src="delete.svg"
+    />
+    <Icon
+      description="alt-undefined"
+      onClick={[Function]}
+      src="edit.svg"
+    />
+  </styled.div>
+</div>
+`;
