@@ -968,6 +968,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@codereview/progress-bar@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@codereview/progress-bar/-/progress-bar-1.0.0.tgz#56b72c92c98211e6604333567c1d9597b4cd4231"
+  integrity sha512-P3DJV9lyTl7PydEBzgr9xDRevL5FNe+yfSsdCUZNT0P6uEjYwfUxuomDtkzybZPd3mfXkFn07qaF1X8TSdUe7Q==
+
 "@emotion/cache@^10.0.17":
   version "10.0.19"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.19.tgz#d258d94d9c707dcadaf1558def968b86bb87ad71"

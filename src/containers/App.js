@@ -17,8 +17,9 @@ import {
 import List from "../components/List";
 import Loading from "../components/Loading";
 import InputField from "../components/InputField";
-import Progress from "../components/Progress";
+// import Progress from "../components/Progress";
 import Title from "../components/Title";
+import ScrollProgress from "@codereview/progress-bar";
 
 type ID = number | string;
 
@@ -33,8 +34,7 @@ type Props = {
 };
 type iState = {
   update: Post,
-  editMode: boolean,
-  progress: number
+  editMode: boolean
 };
 /**
  * render
@@ -43,8 +43,7 @@ type iState = {
 class App extends Component<Props, iState> {
   state = {
     update: null,
-    editMode: false,
-    progress: 0
+    editMode: false
   };
 
   componentDidMount() {
@@ -53,31 +52,9 @@ class App extends Component<Props, iState> {
     clearState();
 
     loadPosts("3");
-    this.scrollEvent();
+    // this.scrollEvent();
   }
 
-  getDocHeight = () => {
-    return Math.max(
-      document.body.scrollHeight,
-      document.documentElement.scrollHeight,
-      document.body.offsetHeight,
-      document.documentElement.offsetHeight,
-      document.body.clientHeight,
-      document.documentElement.clientHeight
-    );
-  };
-
-  scrollEvent = () => {
-    document.addEventListener("scroll", () => {
-      const scrollTop = window.pageYOffset;
-      const windowHeight = window.innerHeight;
-      const docHeight = this.getDocHeight();
-
-      const totalDocScroll = docHeight - windowHeight;
-      const scrollPosition = Math.floor((scrollTop / totalDocScroll) * 100);
-      this.setState(() => ({ progress: scrollPosition }));
-    });
-  };
   onClick = (id: ID) => {
     const { addPost } = this.props;
     if (id) {
@@ -132,7 +109,7 @@ class App extends Component<Props, iState> {
 
     return (
       <Fragment>
-        <Progress value={progress + "%"} rtl="right" />
+        <ScrollProgress />
         <div className="app">
           <Title>
             {editMode ? `Update Post ${update.id}` : `Add new Post`}
