@@ -11,7 +11,9 @@
     "flow:watch": "watchman-make -p \"src/**/*.js\" \"stories/**/*.js\" --make \"clear && yarn run\" -t \"flow --color=always\"",
     "server": "npx json-server db.json --port 5000",
     "docs": "./node_modules/.bin/jsdoc build/static/js/*.js -d docs/",
-    "deploy": "rm -rf build  && npm run build && gh-pages -b master -d build"
+    "deploy": "rm -rf build  && npm run build && gh-pages -b master -d build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "husky": {
     "hooks": {
@@ -127,6 +129,10 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8",
     "babel-preset-stage-0": "^6.24.1",
     "enzyme-to-json": "^3.4.3",
     "flow-bin": "^0.114.0",
