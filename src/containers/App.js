@@ -1,6 +1,6 @@
 // @flow
 import "./app.css";
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import { connect } from "react-redux";
 
 import {
@@ -52,7 +52,6 @@ class App extends Component<Props, iState> {
     clearState();
 
     loadPosts("3");
-    // this.scrollEvent();
   }
 
   onClick = (id: ID) => {
@@ -105,11 +104,11 @@ class App extends Component<Props, iState> {
    */
   render() {
     const { postsState, deletePost } = this.props;
-    const { update, progress, editMode } = this.state;
+    const { update, editMode } = this.state;
 
     return (
-      <Fragment>
-        <ScrollProgress />
+      <div style={{ height: "8000px" }}>
+        <ScrollProgress color="orange" />
         <div className="app">
           <Title>
             {editMode ? `Update Post ${update.id}` : `Add new Post`}
@@ -137,7 +136,7 @@ class App extends Component<Props, iState> {
             )}
           </div>
         </div>
-      </Fragment>
+      </div>
     );
   }
 }

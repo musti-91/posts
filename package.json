@@ -129,7 +129,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
-    "@codereview/progress-bar": "^1.0.0",
+    "@codereview/progress-bar": "^1.0.1",
     "@storybook/addon-actions": "^5.2.8",
     "@storybook/addon-links": "^5.2.8",
     "@storybook/addons": "^5.2.8",
