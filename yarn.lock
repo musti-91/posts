@@ -968,10 +968,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@codereview/progress-bar@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@codereview/progress-bar/-/progress-bar-1.0.0.tgz#56b72c92c98211e6604333567c1d9597b4cd4231"
-  integrity sha512-P3DJV9lyTl7PydEBzgr9xDRevL5FNe+yfSsdCUZNT0P6uEjYwfUxuomDtkzybZPd3mfXkFn07qaF1X8TSdUe7Q==
+"@codereview/progress-bar@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@codereview/progress-bar/-/progress-bar-1.0.1.tgz#f67f0a398f0e806988f32c1656092bbd3b6527be"
+  integrity sha512-/G9ZGXL660hM4RUQHNDVIQS43oeypuIIdNfAEqyN2/szEW3d2oNcJvEnM5RNJwrRi0tIlyMmOc2YzmFyg9WmCA==
 
 "@emotion/cache@^10.0.17":
   version "10.0.19"
@@ -5583,11 +5583,7 @@ dotenv-defaults@^1.0.2:
   dependencies:
     dotenv "^6.2.0"
 
-dotenv-expand@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-4.2.0.tgz#def1f1ca5d6059d24a766e587942c21106ce1275"
-
-dotenv-expand@^5.1.0:
+dotenv-expand@5.1.0, dotenv-expand@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-5.1.0.tgz#3fbaf020bfd794884072ea26b1e9791d45a629f0"
   integrity sha512-YXQl1DSa4/PQyRfgrv6aoNjhasp/p4qs9FjJ4q4cQk+8m4r6k4ZSiEyytKG8f8W9gi8WsQtIObNmKd+tMzNTmA==
