@@ -968,10 +968,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@codereview/progress-bar@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@codereview/progress-bar/-/progress-bar-1.0.0.tgz#56b72c92c98211e6604333567c1d9597b4cd4231"
-  integrity sha512-P3DJV9lyTl7PydEBzgr9xDRevL5FNe+yfSsdCUZNT0P6uEjYwfUxuomDtkzybZPd3mfXkFn07qaF1X8TSdUe7Q==
+"@codereview/progress-bar@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@codereview/progress-bar/-/progress-bar-1.0.1.tgz#f67f0a398f0e806988f32c1656092bbd3b6527be"
+  integrity sha512-/G9ZGXL660hM4RUQHNDVIQS43oeypuIIdNfAEqyN2/szEW3d2oNcJvEnM5RNJwrRi0tIlyMmOc2YzmFyg9WmCA==
 
 "@emotion/cache@^10.0.17":
   version "10.0.19"
@@ -14388,14 +14388,10 @@ whatwg-encoding@^1.0.3:
   dependencies:
     iconv-lite "0.4.24"
 
-whatwg-fetch@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz#9c84ec2dcf68187ff00bc64e1274b442176e1c84"
-
-whatwg-fetch@>=0.10.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
-  integrity sha512-9GSJUgz1D4MfyKU7KRqwOjXCXTqWdFNvEr7eUBYchQiVc744mqK/MzXPNR2WsPkmkOa4ywfg8C2n8h+13Bey1Q==
+whatwg-fetch@3.2.0, whatwg-fetch@>=0.10.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.2.0.tgz#8e134f701f0a4ab5fda82626f113e2b647fd16dc"
+  integrity sha512-SdGPoQMMnzVYThUbSrEvqTlkvC1Ux27NehaJ/GUHBfNrh5Mjg+1/uRyFMwVnxO2MrikMWvWAqUGgQOfVU4hT7w==
 
 whatwg-mimetype@^2.1.0, whatwg-mimetype@^2.2.0:
   version "2.3.0"
