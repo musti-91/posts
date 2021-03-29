@@ -968,10 +968,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@codereview/progress-bar@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@codereview/progress-bar/-/progress-bar-1.0.0.tgz#56b72c92c98211e6604333567c1d9597b4cd4231"
-  integrity sha512-P3DJV9lyTl7PydEBzgr9xDRevL5FNe+yfSsdCUZNT0P6uEjYwfUxuomDtkzybZPd3mfXkFn07qaF1X8TSdUe7Q==
+"@codereview/progress-bar@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@codereview/progress-bar/-/progress-bar-1.0.1.tgz#f67f0a398f0e806988f32c1656092bbd3b6527be"
+  integrity sha512-/G9ZGXL660hM4RUQHNDVIQS43oeypuIIdNfAEqyN2/szEW3d2oNcJvEnM5RNJwrRi0tIlyMmOc2YzmFyg9WmCA==
 
 "@emotion/cache@^10.0.17":
   version "10.0.19"
@@ -14561,8 +14561,9 @@ xtend@^4.0.1, xtend@~4.0.1:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 "y18n@^3.2.1 || ^4.0.0", y18n@^4.0.0:
   version "4.0.0"
